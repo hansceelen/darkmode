@@ -27,9 +27,16 @@
         }
 
         @media (prefers-color-scheme: dark) {
-            body { background: blue; }
-            .mode {
+            body { background: #2d2d2d; }
+            .mode:after {
                 content: 'Your system is in Darkmode';
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            body { background: #336699; }
+            .mode:after {
+                content: 'Your system is in Lightmode';
             }
         }
 
