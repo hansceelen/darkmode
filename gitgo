@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo Gitgit go!
+
+git add .
+git commit -m "Change"
+git push
+
+echo Done!
+echo
